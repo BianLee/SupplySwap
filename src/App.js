@@ -25,7 +25,7 @@ function App() {
   // Get other restaurants for trading
   const otherRestaurants = restaurants.filter((r) => r.id !== selectedRestaurantId);
 
-  // Handle trade request input
+  // Handle trade request inputuu
   const handleRequestChange = (e) => {
     const { name, value } = e.target;
     setTradeRequest({
